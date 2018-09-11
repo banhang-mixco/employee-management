@@ -26,4 +26,6 @@ Route::name('admin.')->prefix('admin')->namespace('Admin')->group(function () {
         Route::post('/update/{id}', 'UserController@update')->name('update');
         Route::post('/users_mass_destroy', 'UserController@massDestroy')->name('mass_destroy');
     });
+
+    Route::get('/form', 'CustomerController@form');
 });

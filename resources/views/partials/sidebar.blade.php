@@ -12,6 +12,13 @@
                 </a>
             </li>
 
+            <li>
+                <a href="{{ url('admin/form') }}">
+                    <i class="fa fa-arrow-left"></i>
+                    <span class="title">Customer</span>
+                </a>
+            </li>
+
             <li class="treeview">
                 <a href="#">
                     <i class="fa fa-users"></i>
